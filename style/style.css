@@ -90,7 +90,15 @@ body{
 }
 
 /* navbar styling ends here */
-
+/* marquee styling starts here */
+.marquee{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    background-color: blueviolet;
+    text-align: center;
+}
+/* marquee styling ends here */
 /* banner section starts here */
 .banner-container{
     margin: 0 140.39px 0 141px;
