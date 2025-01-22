@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 /* font-family: "Quicksand", serif; */
-/* font import end here */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", serif; */
+/* font import ends here */
 
 /* Universal styles */
 * {
@@ -117,3 +119,90 @@ li {
     border-radius: 12px;
 }
 /* banner section ends here */
+
+/* main stars here */
+main{
+    background-image: url(../assets/bg.png);
+}
+/* curriculum section starts here */
+.curriculum-headline{
+    padding: 60px 489.7px 80px 489.7px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 460.61px;
+    height: 57.5px;
+}
+.curriculum-container{
+    margin: 0 140px 80px 140px;
+}
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28.29px;
+    text-align: center;
+    height: 476.78px;
+    
+}
+.curriculum-card-1{
+    background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) 40%);
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+}
+.curriculum-image{
+    margin: 58.82px 0 32.07px 0;
+}
+.curriculum-title{
+    font-size:16px;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+    margin-bottom: 33px;
+}
+.curriculum-subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    margin: 0 40px 33px 40px;
+    font-family: "Raleway", serif;
+}
+.read-more{
+    font-size: 15px;
+    font-weight: bold;
+}
+.curriculum-card-2{
+    background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) 40%);
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+}
+.curriculum-card-3{
+    background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%);
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+}
+/* curriculum section ends here */
+.arrows{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.left-arrow{
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    /* margin-left: 655px; */
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.right-arrow{
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+/* main ends here */
