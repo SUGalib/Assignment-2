@@ -22,12 +22,14 @@ a:hover {
 a {
     text-decoration: none;
 }
-body{
+
+body {
     position: absolute;
     /* width: 100vw; */
     /* height: 100vh; */
 
 }
+
 /* navbar styling starts here */
 
 .school-nav-bar {
@@ -89,40 +91,50 @@ body{
     border: none;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 /* navbar styling ends here */
 /* marquee styling starts here */
-.marquee{
+.marquee {
     font-size: 20px;
     color: white;
     font-weight: 700;
     background-color: blueviolet;
     text-align: center;
 }
+
 /* marquee styling ends here */
 /* banner section starts here */
-.banner-container{
+.banner-container {
     margin: 0 140.39px 0 141px;
     display: flex;
     gap: 50px;
     max-height: 575px;
 }
-.banner-texts{
+
+.banner-texts {
     margin: 122px 0;
     max-width: 640px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 37px;
     font-weight: bold;
     margin-bottom: 24px;
 }
-.hero-bg{
+
+.hero-bg {
     max-width: 468.61px;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-size: 13px;
     margin-bottom: 24px;
 }
-.enroll-btn{
+
+.enroll-btn {
     width: 197px;
     font-size: 13px;
     font-weight: bold;
@@ -131,75 +143,88 @@ body{
     padding: 10px 47px;
     border-radius: 12px;
 }
+
 /* banner section ends here */
 
 /* main stars here */
-main{
+main {
     background-image: url(../assets/bg.png);
 }
+
 /* curriculum section starts here */
-.curriculum-headline{
+.curriculum-headline {
     padding: 60px 489.7px 80px 489.7px;
     font-size: 30px;
     font-weight: bold;
     width: 460.61px;
     height: 57.5px;
 }
-.curriculum-container{
+
+.curriculum-container {
     margin: 0 140px 80px 140px;
 }
-.curriculum-cards{
+
+.curriculum-cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 28.29px;
     text-align: center;
     height: 476.78px;
-    
+
 }
-.curriculum-card-1{
+
+.curriculum-card-1 {
     background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) 40%);
     border-radius: 18.86px;
     box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
 }
-.curriculum-image{
+
+.curriculum-image {
     margin: 58.82px 0 32.07px 0;
 }
-.curriculum-title{
-    font-size:16px;
+
+.curriculum-title {
+    font-size: 16px;
     font-weight: bold;
     color: rgba(32, 32, 32, 1);
     margin-bottom: 33px;
 }
-.curriculum-subtitle{
+
+.curriculum-subtitle {
     font-size: 15px;
     font-weight: 500;
     color: rgba(128, 128, 128, 1);
     margin: 0 40px 33px 40px;
     font-family: "Raleway", serif;
 }
-.read-more{
+
+.read-more {
     font-size: 15px;
     font-weight: bold;
 }
-.curriculum-card-2{
+
+.curriculum-card-2 {
     background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) 40%);
     border-radius: 18.86px;
     box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
 }
-.curriculum-card-3{
+
+.curriculum-card-3 {
     background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%);
     border-radius: 18.86px;
     box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
 }
+
 /* curriculum section ends here */
 /* arrow section starts here */
-.arrows{
+.arrows {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 60px;
 }
-.left-arrow{
+
+.left-arrow {
     background-color: orange;
     width: 60px;
     height: 60px;
@@ -210,7 +235,8 @@ main{
     font-size: 24px;
     font-weight: 600;
 }
-.right-arrow{
+
+.right-arrow {
     background-color: orange;
     width: 60px;
     height: 60px;
@@ -220,77 +246,94 @@ main{
     font-size: 24px;
     font-weight: 600;
 }
+
 /* arrow section ends here */
 /* story section starts here */
-.stories{
-    background-image: linear-gradient(to top,rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3));
+.stories {
+    background-image: linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
 }
-.story-headline{
+
+.story-headline {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 80px;
 }
 
-.box-of-story{
+.box-of-story {
     display: flex;
     gap: 18px;
     margin: 0 140px 80px 140px;
 }
-.story-card-P1{
+
+.story-card-P1 {
     width: 40%;
     background-color: white;
     border-radius: 16px;
 }
-.story-card-P2{
+
+.story-card-P2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 60%;
     gap: 18px;
 }
-.story-img-p1{
+
+.story-img-p1 {
     width: 100%;
-    background-image: linear-gradient(rgba(217, 217, 217, 1),rgba(115, 115, 115, 1));
+    background-image: linear-gradient(rgba(217, 217, 217, 1), rgba(115, 115, 115, 1));
     border-radius: 10px;
 }
-.story-img{
+
+.story-img {
     width: 100%;
 }
-.story-text{
+
+.story-text {
     padding: 33px;
 }
-.story-time{
+
+.story-time {
     position: relative;
     top: -18.5px;
-    left:38px;
+    left: 38px;
     width: 174px;
     color: white;
     font-size: 12px;
     font-weight: 500;
     font-family: "Raleway", serif;
 }
-.story-title{
+
+.story-title {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 47px;
 }
-.story-synopsis{
+
+.story-synopsis {
     font: 15px;
     font-weight: 500;
     color: rgba(102, 102, 102, 1);
 }
-.story-img{
+
+.story-img {
     border-radius: 16px;
 }
-.story-card-2, .story-card-3, .story-card-4, .story-card-5{
+
+.story-card-2,
+.story-card-3,
+.story-card-4,
+.story-card-5 {
     background-color: white;
     border-radius: 16px;
 }
-.view-align{
+
+.view-align {
     display: flex;
     justify-content: center;
 }
-.view-btn{
+
+.view-btn {
     width: 197px;
     padding: 10px;
     border-radius: 12px;
@@ -300,57 +343,179 @@ main{
     background-color: black;
     margin-bottom: 60px;
 }
+
 /* story section ends here */
 
 /* footer starts here */
-footer{
+footer {
     background-image: none;
     background-color: rgba(1, 172, 253, 1);
-    height: 519px;
+    /* height: 519px; */
 }
-.footer-container{
+
+.footer-container {
     padding: 123px 228px 174px 140px;
     display: flex;
     justify-content: space-between;
 }
-.mini-edu{
+
+.mini-edu {
     display: flex;
     gap: 10.7px;
     margin-bottom: 35px;
 }
-.mini-edu h1{
+
+.mini-edu h1 {
     font-size: 35px;
     font-weight: bold;
     color: white;
     width: 206px;
     height: 80px;
 }
-.edu-gyan{
+
+.edu-gyan {
     width: 400px;
     font-size: 20px;
     color: white;
 }
-.about-title{
+
+.about-title {
     font-size: 24px;
     font-weight: bold;
     color: white;
     margin-bottom: 32px;
 }
-.about-ul{
+
+.about-ul {
     list-style-type: none;
 }
-.about li{
+
+.about li {
     font-size: 20px;
     font-weight: 500;
     color: white;
     margin-bottom: 20px;
 }
-.communication h3{
+
+.communication h3 {
     font-size: 26px;
     font-weight: bold;
     color: white;
     margin-bottom: 32px;
 }
-/* footer ends here */
 
+/* footer ends here */
 /* main ends here */
+
+/* mobile version styling starts here */
+@media screen and (max-width:768px) {
+
+    .nav-bar-options,
+    .contact-btn {
+        display: none;
+    }
+
+    .school-nav-bar {
+        margin-bottom: 28px;
+    }
+
+    .menu-toggle {
+        display: block;
+        width: 50px;
+    }
+
+    .banner-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .hero-bg {
+        max-width: 100%;
+    }
+
+    .banner-texts {
+        max-width: 90%;
+        text-align: center;
+    }
+    .curriculum{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 320px;
+        
+    }
+    .curriculum-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40%;
+    }
+
+    .curriculum-card-1,
+    .curriculum-card-2,
+    .curriculum-card-3 {
+        max-width: 90%;
+        padding-bottom: 33px;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .stories {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .box-of-story {
+        max-width: 72%;
+        justify-content: center;
+    }
+
+    .story-card-P1 {
+        display: none;
+    }
+
+    .story-card-P2 {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .story-card-2,
+    .story-card-3,
+    .story-card-4,
+    .story-card-5 {
+        width: 100%;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 65px 0 0 120px;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .education {
+        margin-bottom: 10px;
+    }
+
+    .education,
+    .about,
+    .communication {
+        width: 100%;
+    }
+
+    .communication {
+        margin-bottom: 65px;
+    }
+}
+
+/* mobile version styling ends here */
