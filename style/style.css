@@ -83,3 +83,37 @@ li {
 }
 
 /* navbar styling ends here */
+
+/* banner section starts here */
+.banner-container{
+    margin: 0 140.39px 0 141px;
+    display: flex;
+    gap: 50px;
+    max-height: 575px;
+}
+.banner-texts{
+    margin: 122px 0;
+    max-width: 640px;
+}
+.banner-title{
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.hero-bg{
+    max-width: 468.61px;
+}
+.banner-subtitle{
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+.enroll-btn{
+    width: 197px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 12px;
+}
+/* banner section ends here */
