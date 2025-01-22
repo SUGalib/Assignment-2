@@ -22,7 +22,12 @@ a:hover {
 a {
     text-decoration: none;
 }
+body{
+    position: absolute;
+    /* width: 100vw; */
+    /* height: 100vh; */
 
+}
 /* navbar styling starts here */
 
 .school-nav-bar {
@@ -51,7 +56,7 @@ a {
     margin: 16px 0;
 }
 
-li {
+.nav-bar-options li {
     font-size: 20px;
     font-weight: bold;
 }
@@ -179,10 +184,12 @@ main{
     box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
 }
 /* curriculum section ends here */
+/* arrow section starts here */
 .arrows{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 60px;
 }
 .left-arrow{
     background-color: orange;
@@ -205,4 +212,137 @@ main{
     font-size: 24px;
     font-weight: 600;
 }
+/* arrow section ends here */
+/* story section starts here */
+.stories{
+    background-image: linear-gradient(to top,rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3));
+}
+.story-headline{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.box-of-story{
+    display: flex;
+    gap: 18px;
+    margin: 0 140px 80px 140px;
+}
+.story-card-P1{
+    width: 40%;
+    background-color: white;
+    border-radius: 16px;
+}
+.story-card-P2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    gap: 18px;
+}
+.story-img-p1{
+    width: 100%;
+    background-image: linear-gradient(rgba(217, 217, 217, 1),rgba(115, 115, 115, 1));
+    border-radius: 10px;
+}
+.story-img{
+    width: 100%;
+}
+.story-text{
+    padding: 33px;
+}
+.story-time{
+    position: relative;
+    top: -18.5px;
+    left:38px;
+    width: 174px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+}
+.story-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+.story-synopsis{
+    font: 15px;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+}
+.story-img{
+    border-radius: 16px;
+}
+.story-card-2, .story-card-3, .story-card-4, .story-card-5{
+    background-color: white;
+    border-radius: 16px;
+}
+.view-align{
+    display: flex;
+    justify-content: center;
+}
+.view-btn{
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    margin-bottom: 60px;
+}
+/* story section ends here */
+
+/* footer starts here */
+footer{
+    background-image: none;
+    background-color: rgba(1, 172, 253, 1);
+    height: 519px;
+}
+.footer-container{
+    padding: 123px 228px 174px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini-edu{
+    display: flex;
+    gap: 10.7px;
+    margin-bottom: 35px;
+}
+.mini-edu h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    width: 206px;
+    height: 80px;
+}
+.edu-gyan{
+    width: 400px;
+    font-size: 20px;
+    color: white;
+}
+.about-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+.about-ul{
+    list-style-type: none;
+}
+.about li{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.communication h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+/* footer ends here */
+
 /* main ends here */
