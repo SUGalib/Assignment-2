@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* font-family: "Quicksand", serif; */
+/* font import end here */
+
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quicksand {
+    font-family: "Quicksand", serif;
+}
+
+button:hover,
+a:hover {
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar styling starts here */
+
+.school-nav-bar {
+    margin: 20px 140px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 62px; */
+
+}
+
+.school-logo {
+    /* width: 202px; */
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-bar-options ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin: 16px 0;
+}
+
+li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.li-color-1 {
+    color: orange;
+}
+
+.li-color-2 {
+    color: skyblue;
+}
+
+.li-color-3 {
+    color: rgba(5, 212, 223, 1);
+}
+
+.li-color-4 {
+    color: rgba(93, 88, 239, 1);
+}
+
+.contact-btn {
+    margin: 6px 0;
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+/* navbar styling ends here */
